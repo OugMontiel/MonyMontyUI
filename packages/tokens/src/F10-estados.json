@@ -3,23 +3,42 @@
     "opacity": {
       "hover": {
         "value": "0.08",
-        "type": "dimension",
+        "type": "content",
         "comment": "Opacidad de capa de interacción hover"
       },
       "focus": {
         "value": "0.12",
-        "type": "dimension",
+        "type": "content",
         "comment": "Opacidad de capa de interacción focus"
       },
       "pressed": {
         "value": "0.16",
-        "type": "dimension",
-        "comment": "Opacidad de capa de interacción pressed/active"
+        "type": "content",
+        "comment": "Opacidad de capa de interacción pressed / active"
       },
       "disabled": {
         "value": "0.38",
+        "type": "content",
+        "comment": "Opacidad general de componentes deshabilitados (38%)"
+      }
+    },
+    "ring": {
+      "width": {
+        "value": "2px",
         "type": "dimension",
-        "comment": "Opacidad general de componentes deshabilitados"
+        "comment": "Grosor del anillo de foco accesible"
+      },
+      "offset": {
+        "value": "2px",
+        "type": "dimension",
+        "comment": "Separación del anillo de foco respecto al componente"
+      }
+    },
+    "skeleton": {
+      "pulse-duration": {
+        "value": "1500ms",
+        "type": "time",
+        "comment": "Duración del pulso de carga en placeholders y skeletons"
       }
     }
   }

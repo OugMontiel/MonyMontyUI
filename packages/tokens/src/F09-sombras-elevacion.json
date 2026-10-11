@@ -1,0 +1,52 @@
+{
+  "shadow": {
+    "sm": {
+      "light": {
+        "value": "0 1px 2px rgba(31, 24, 18, 0.06), 0 1px 1px rgba(31, 24, 18, 0.04)",
+        "type": "content",
+        "comment": "Tarjetas en reposo (tema claro)."
+      },
+      "dark": {
+        "value": "0 1px 2px rgba(0, 0, 0, 0.5)",
+        "type": "content",
+        "comment": "Tarjetas en reposo (tema oscuro)."
+      }
+    },
+    "md": {
+      "light": {
+        "value": "0 10px 24px -8px rgba(31, 24, 18, 0.14), 0 2px 4px rgba(31, 24, 18, 0.05)",
+        "type": "content",
+        "comment": "Tarjetas en hover, popovers, menús (tema claro)."
+      },
+      "dark": {
+        "value": "0 10px 24px -8px rgba(0, 0, 0, 0.6)",
+        "type": "content",
+        "comment": "Tarjetas en hover, popovers, menús (tema oscuro)."
+      }
+    },
+    "lg": {
+      "light": {
+        "value": "0 32px 64px -16px rgba(31, 24, 18, 0.28), 0 4px 12px rgba(31, 24, 18, 0.08)",
+        "type": "content",
+        "comment": "Modales y drawers (tema claro)."
+      },
+      "dark": {
+        "value": "0 32px 64px -16px rgba(0, 0, 0, 0.75)",
+        "type": "content",
+        "comment": "Modales y drawers (tema oscuro)."
+      }
+    },
+    "brand": {
+      "light": {
+        "value": "0 10px 24px -8px rgba(201, 68, 26, 0.5)",
+        "type": "content",
+        "comment": "Botón primario en hover y FAB (tema claro)."
+      },
+      "dark": {
+        "value": "0 10px 24px -8px rgba(255, 107, 61, 0.35)",
+        "type": "content",
+        "comment": "Botón primario en hover y FAB (tema oscuro)."
+      }
+    }
+  }
+}

@@ -1,97 +1,71 @@
 {
   "space": {
-    "spacing": {
-      "none": {
-        "value": "0px",
-        "type": "dimension",
-        "comment": "Espaciado nulo"
-      },
-      "2xs": {
-        "value": "4px",
-        "type": "dimension",
-        "comment": "Espaciado mínimo entre elementos compactos"
-      },
-      "xs": {
-        "value": "8px",
-        "type": "dimension",
-        "comment": "Espaciado estrecho para agrupación cercana"
-      },
-      "sm": {
-        "value": "12px",
-        "type": "dimension",
-        "comment": "Espaciado compacto común en inputs y chips"
-      },
-      "md": {
-        "value": "16px",
-        "type": "dimension",
-        "comment": "Espaciado base del sistema (grid de 8pt)"
-      },
-      "lg": {
-        "value": "24px",
-        "type": "dimension",
-        "comment": "Separación entre secciones internas de tarjeta"
-      },
-      "xl": {
-        "value": "32px",
-        "type": "dimension",
-        "comment": "Márgenes laterales de contenedor principal"
-      },
-      "2xl": {
-        "value": "48px",
-        "type": "dimension",
-        "comment": "Espaciado amplio entre módulos mayores"
-      }
+    "1": {
+      "value": "4px",
+      "type": "dimension",
+      "comment": "Separación icono-texto en chips."
+    },
+    "2": {
+      "value": "8px",
+      "type": "dimension",
+      "comment": "Gap entre botones y dentro de filas."
+    },
+    "3": {
+      "value": "12px",
+      "type": "dimension",
+      "comment": "Padding de inputs y de ítems del menú."
+    },
+    "4": {
+      "value": "16px",
+      "type": "dimension",
+      "comment": "Gap de grids de tarjetas en móvil; padding de filas."
+    },
+    "5": {
+      "value": "20px",
+      "type": "dimension",
+      "comment": "Padding de tarjetas."
+    },
+    "6": {
+      "value": "24px",
+      "type": "dimension",
+      "comment": "Gap de grids en escritorio; padding de modales."
+    },
+    "8": {
+      "value": "32px",
+      "type": "dimension",
+      "comment": "Padding del contenido principal."
+    },
+    "12": {
+      "value": "48px",
+      "type": "dimension",
+      "comment": "Separación entre secciones en landing y onboarding."
     }
   },
-  "shape": {
-    "radius": {
-      "none": {
-        "value": "0px",
-        "type": "dimension",
-        "comment": "Bordes rectos"
-      },
-      "xs": {
-        "value": "4px",
-        "type": "dimension",
-        "comment": "Radio sutil para tags o badges"
-      },
-      "sm": {
-        "value": "8px",
-        "type": "dimension",
-        "comment": "Radio estándar para inputs y botones pequeños"
-      },
-      "md": {
-        "value": "12px",
-        "type": "dimension",
-        "comment": "Radio estándar para tarjetas y botones principales"
-      },
-      "lg": {
-        "value": "16px",
-        "type": "dimension",
-        "comment": "Radio para modales y bottom sheets"
-      },
-      "full": {
-        "value": "9999px",
-        "type": "dimension",
-        "comment": "Radio completamente redondeado para avatares y píldoras"
-      }
+  "radius": {
+    "sm": {
+      "value": "8px",
+      "type": "dimension",
+      "comment": "Chips, badges, kbd, checkbox."
     },
-    "border-width": {
-      "none": {
-        "value": "0px",
-        "type": "dimension",
-        "comment": "Sin borde"
-      },
-      "hairline": {
-        "value": "1px",
-        "type": "dimension",
-        "comment": "Borde fino para divisores e inputs"
-      },
-      "focus": {
-        "value": "2px",
-        "type": "dimension",
-        "comment": "Borde de enfoque o selección activa"
-      }
+    "md": {
+      "value": "12px",
+      "type": "dimension",
+      "comment": "Inputs, botones, ítems del menú."
+    },
+    "lg": {
+      "value": "18px",
+      "type": "dimension",
+      "comment": "Tarjetas y tablas."
+    },
+    "xl": {
+      "value": "26px",
+      "type": "dimension",
+      "comment": "Modales, drawers, hero del landing."
+    },
+    "pill": {
+      "value": "999px",
+      "type": "dimension",
+      "comment": "Segmented control, avatares, barras de progreso, FAB."
     }
   }
 }

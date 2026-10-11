@@ -1,76 +1,316 @@
 {
   "color": {
-    "brand": {
-      "primary": {
-        "value": "#1E3A8A",
-        "type": "color",
-        "comment": "Color primario corporativo de MonyMonty"
-      },
-      "secondary": {
-        "value": "#10B981",
-        "type": "color",
-        "comment": "Color secundario de soporte"
-      },
-      "accent": {
-        "value": "#F59E0B",
-        "type": "color",
-        "comment": "Color de acento o llamada a la acción"
-      }
-    },
-    "neutral": {
-      "background": {
-        "value": "#F8FAFC",
-        "type": "color",
-        "comment": "Fondo de superficie principal de la aplicación"
-      },
-      "surface": {
-        "value": "#FFFFFF",
-        "type": "color",
-        "comment": "Superficie de tarjetas, modales y hojas inferiores"
-      },
-      "text": {
-        "primary": {
-          "value": "#0F172A",
+    "theme": {
+      "light": {
+        "bg": {
+          "value": "#f8f7f5",
           "type": "color",
-          "comment": "Texto principal de alto contraste"
+          "comment": "Fondo de toda la app, detrás de tarjetas y sidebar. Blanco cálido."
         },
-        "secondary": {
-          "value": "#64748B",
+        "surface": {
+          "value": "#ffffff",
           "type": "color",
-          "comment": "Texto secundario o descriptivo"
+          "comment": "Tarjetas, modales, sidebar, tablas, drawers."
         },
-        "disabled": {
-          "value": "#94A3B8",
+        "surface-2": {
+          "value": "#f2f0ec",
           "type": "color",
-          "comment": "Texto en estado deshabilitado"
+          "comment": "Relleno de inputs, hover de filas y de ítems del menú, pistas de segmented control y barras de progreso."
+        },
+        "surface-3": {
+          "value": "#e9e6e1",
+          "type": "color",
+          "comment": "Estado presionado, skeletons, divisores gruesos."
+        },
+        "line": {
+          "value": "#e5e1db",
+          "type": "color",
+          "comment": "Bordes de tarjetas y separadores de tabla (decorativos, no identifican controles)."
+        },
+        "line-strong": {
+          "value": "#8f887f",
+          "type": "color",
+          "comment": "Borde de inputs, checkboxes y selects: >=3:1 sobre surface."
+        },
+        "ink": {
+          "value": "#2f2f2f",
+          "type": "color",
+          "comment": "Texto principal y montos sobre bg, surface, surface-2."
+        },
+        "ink-muted": {
+          "value": "#67625b",
+          "type": "color",
+          "comment": "Texto secundario, etiquetas, descripciones y ejes de gráficos sobre surface y surface-2 (>=5:1)."
+        },
+        "ink-subtle": {
+          "value": "#8a847c",
+          "type": "color",
+          "comment": "Solo iconos decorativos, placeholders grandes y marcas de eje (>=3:1). Nunca texto de párrafo."
+        },
+        "brand": {
+          "value": "#f25c2f",
+          "type": "color",
+          "comment": "Naranja MonyMonty (--color-acento). Iconos activos, indicador del menú, gráficos, texto >=24px."
+        },
+        "brand-strong": {
+          "value": "#c9441a",
+          "type": "color",
+          "comment": "Relleno del botón primario y del FAB; anillo de foco. Siempre con texto on-brand."
+        },
+        "brand-ink": {
+          "value": "#b23c15",
+          "type": "color",
+          "comment": "Texto naranja pequeño: enlaces, badges de marca sobre brand-tint o surface (>=5:1)."
+        },
+        "brand-soft": {
+          "value": "#ff9b73",
+          "type": "color",
+          "comment": "--color-acento-suave: halos, gradientes del landing, hover suave de gráficos."
+        },
+        "brand-tint": {
+          "value": "#fff1eb",
+          "type": "color",
+          "comment": "Fondo de la píldora activa del menú, chips seleccionados, banners de marca."
+        },
+        "on-brand": {
+          "value": "#ffffff",
+          "type": "color",
+          "comment": "Texto e iconos sobre brand-strong."
+        },
+        "income": {
+          "value": "#077650",
+          "type": "color",
+          "comment": "Ingresos: montos positivos, badge Ingreso, serie de ingresos."
+        },
+        "income-tint": {
+          "value": "#e6f5ee",
+          "type": "color",
+          "comment": "Fondo de badges e iconos de ingreso; texto income encima."
+        },
+        "expense": {
+          "value": "#c4223f",
+          "type": "color",
+          "comment": "Gastos/egresos: montos negativos, badge Gasto, errores de formulario."
+        },
+        "expense-tint": {
+          "value": "#fdebef",
+          "type": "color",
+          "comment": "Fondo de badges de gasto y del modal de eliminar; texto expense encima."
+        },
+        "balance": {
+          "value": "#4a4fd1",
+          "type": "color",
+          "comment": "Saldo disponible y patrimonio."
+        },
+        "balance-tint": {
+          "value": "#eeeffd",
+          "type": "color",
+          "comment": "Fondo de icono/badge de saldo; texto balance encima."
+        },
+        "warning": {
+          "value": "#955900",
+          "type": "color",
+          "comment": "Presupuesto al 80-99%, deudas por vencer."
+        },
+        "warning-tint": {
+          "value": "#fdf3e1",
+          "type": "color",
+          "comment": "Fondo de avisos de advertencia."
+        },
+        "info": {
+          "value": "#1a63bd",
+          "type": "color",
+          "comment": "Transferencias entre cuentas y mensajes informativos."
+        },
+        "info-tint": {
+          "value": "#e8f1fc",
+          "type": "color",
+          "comment": "Fondo de badge Transferencia y banners informativos."
+        },
+        "overlay": {
+          "value": "rgba(28, 24, 20, 0.46)",
+          "type": "color",
+          "comment": "Capa detrás de modales y drawers."
         }
       },
-      "border": {
-        "value": "#E2E8F0",
-        "type": "color",
-        "comment": "Borde estándar para divisores e inputs"
+      "dark": {
+        "bg": {
+          "value": "#121110",
+          "type": "color",
+          "comment": "Fondo oscuro de toda la app."
+        },
+        "surface": {
+          "value": "#1b1a18",
+          "type": "color",
+          "comment": "Tarjetas, modales, sidebar en modo oscuro."
+        },
+        "surface-2": {
+          "value": "#24221f",
+          "type": "color",
+          "comment": "Relleno de inputs, hover de filas en modo oscuro."
+        },
+        "surface-3": {
+          "value": "#2e2b28",
+          "type": "color",
+          "comment": "Estado presionado, skeletons en modo oscuro."
+        },
+        "line": {
+          "value": "#33302c",
+          "type": "color",
+          "comment": "Bordes de tarjetas y separadores en modo oscuro."
+        },
+        "line-strong": {
+          "value": "#6e675f",
+          "type": "color",
+          "comment": "Borde de inputs en modo oscuro: >=3:1 sobre surface."
+        },
+        "ink": {
+          "value": "#f4f1ec",
+          "type": "color",
+          "comment": "Texto principal sobre fondo oscuro."
+        },
+        "ink-muted": {
+          "value": "#b3ada5",
+          "type": "color",
+          "comment": "Texto secundario sobre fondo oscuro."
+        },
+        "ink-subtle": {
+          "value": "#8a847c",
+          "type": "color",
+          "comment": "Iconos decorativos y marcas de eje en modo oscuro."
+        },
+        "brand": {
+          "value": "#ff6b3d",
+          "type": "color",
+          "comment": "Naranja de marca adaptado para modo oscuro."
+        },
+        "brand-strong": {
+          "value": "#ff7a4f",
+          "type": "color",
+          "comment": "Relleno de botón primario y FAB en modo oscuro."
+        },
+        "brand-ink": {
+          "value": "#ffab8a",
+          "type": "color",
+          "comment": "Texto naranja pequeño en modo oscuro."
+        },
+        "brand-soft": {
+          "value": "#ffab8a",
+          "type": "color",
+          "comment": "Halos y gradientes en modo oscuro."
+        },
+        "brand-tint": {
+          "value": "#3a2016",
+          "type": "color",
+          "comment": "Fondo de píldora activa en modo oscuro."
+        },
+        "on-brand": {
+          "value": "#1b0d06",
+          "type": "color",
+          "comment": "Texto sobre brand-strong en modo oscuro."
+        },
+        "income": {
+          "value": "#3ccf91",
+          "type": "color",
+          "comment": "Ingresos en modo oscuro."
+        },
+        "income-tint": {
+          "value": "#12291f",
+          "type": "color",
+          "comment": "Fondo de badge de ingresos en modo oscuro."
+        },
+        "expense": {
+          "value": "#ff6b86",
+          "type": "color",
+          "comment": "Gastos en modo oscuro."
+        },
+        "expense-tint": {
+          "value": "#351820",
+          "type": "color",
+          "comment": "Fondo de badge de gastos en modo oscuro."
+        },
+        "balance": {
+          "value": "#8d93ff",
+          "type": "color",
+          "comment": "Saldo disponible en modo oscuro."
+        },
+        "balance-tint": {
+          "value": "#1f2040",
+          "type": "color",
+          "comment": "Fondo de badge de saldo en modo oscuro."
+        },
+        "warning": {
+          "value": "#f2b544",
+          "type": "color",
+          "comment": "Advertencias en modo oscuro."
+        },
+        "warning-tint": {
+          "value": "#33270f",
+          "type": "color",
+          "comment": "Fondo de advertencias en modo oscuro."
+        },
+        "info": {
+          "value": "#5ea8ff",
+          "type": "color",
+          "comment": "Mensajes informativos en modo oscuro."
+        },
+        "info-tint": {
+          "value": "#14243a",
+          "type": "color",
+          "comment": "Fondo informativo en modo oscuro."
+        },
+        "overlay": {
+          "value": "rgba(0, 0, 0, 0.62)",
+          "type": "color",
+          "comment": "Capa overlay para modales en modo oscuro."
+        }
       }
     },
-    "feedback": {
-      "success": {
-        "value": "#22C55E",
+    "category": {
+      "orange": {
+        "value": "#e4572e",
         "type": "color",
-        "comment": "Indicador de transacciones o acciones exitosas"
+        "comment": "Categoría: Comida y restaurantes."
       },
-      "warning": {
-        "value": "#EAB308",
+      "teal": {
+        "value": "#0f8f8a",
         "type": "color",
-        "comment": "Indicador de advertencia o confirmación pendiente"
+        "comment": "Categoría: Mercado y supermercado."
       },
-      "error": {
-        "value": "#EF4444",
+      "indigo": {
+        "value": "#5458d6",
         "type": "color",
-        "comment": "Indicador de error o saldo insuficiente"
+        "comment": "Categoría: Hogar y arriendo."
       },
-      "info": {
-        "value": "#3B82F6",
+      "plum": {
+        "value": "#8b4fb3",
         "type": "color",
-        "comment": "Indicador informativo neutral"
+        "comment": "Categoría: Educación."
+      },
+      "amber": {
+        "value": "#c27c00",
+        "type": "color",
+        "comment": "Categoría: Transporte."
+      },
+      "pink": {
+        "value": "#c93f72",
+        "type": "color",
+        "comment": "Categoría: Salud y cuidado."
+      },
+      "sky": {
+        "value": "#2878c7",
+        "type": "color",
+        "comment": "Categoría: Suscripciones y tecnología."
+      },
+      "green": {
+        "value": "#3d8a3a",
+        "type": "color",
+        "comment": "Categoría: Salario y negocio."
+      },
+      "slate": {
+        "value": "#5f6b7a",
+        "type": "color",
+        "comment": "Categoría: Otros / sin categoría."
       }
     }
   }

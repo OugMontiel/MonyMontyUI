@@ -1,25 +1,47 @@
 {
   "motion": {
     "duration": {
-      "instant": {
-        "value": "100ms",
-        "type": "time",
-        "comment": "Microinteracciones inmediatas como hover o ripple"
-      },
       "fast": {
-        "value": "200ms",
+        "value": "140ms",
         "type": "time",
-        "comment": "Transición rápida de expansión o contracción"
+        "comment": "Hover, press, cambio de color."
       },
-      "normal": {
-        "value": "300ms",
+      "base": {
+        "value": "240ms",
         "type": "time",
-        "comment": "Duración estándar para modales y navegación de páginas"
+        "comment": "Segmented control, tabs, toggles, tooltips."
       },
       "slow": {
-        "value": "500ms",
+        "value": "420ms",
         "type": "time",
-        "comment": "Animaciones complejas o transiciones compartidas"
+        "comment": "Entrada de modales, drawers y tarjetas."
+      },
+      "chart": {
+        "value": "1100ms",
+        "type": "time",
+        "comment": "Trazado de gráficos y conteo de montos."
+      },
+      "reduced": {
+        "value": "1ms",
+        "type": "time",
+        "comment": "Respeta prefers-reduced-motion: todo pasa a 1ms."
+      }
+    },
+    "easing": {
+      "out": {
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "type": "content",
+        "comment": "Entradas: tarjetas, modales, gráficos."
+      },
+      "in-out": {
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "type": "content",
+        "comment": "Movimientos de un punto a otro: indicador del menú, thumb del segmented."
+      },
+      "spring": {
+        "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "type": "content",
+        "comment": "Micro-rebotes: FAB, check de éxito, toggle."
       }
     }
   }
