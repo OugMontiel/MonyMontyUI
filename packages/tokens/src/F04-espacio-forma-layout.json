@@ -1,0 +1,97 @@
+{
+  "space": {
+    "spacing": {
+      "none": {
+        "value": "0px",
+        "type": "dimension",
+        "comment": "Espaciado nulo"
+      },
+      "2xs": {
+        "value": "4px",
+        "type": "dimension",
+        "comment": "Espaciado mínimo entre elementos compactos"
+      },
+      "xs": {
+        "value": "8px",
+        "type": "dimension",
+        "comment": "Espaciado estrecho para agrupación cercana"
+      },
+      "sm": {
+        "value": "12px",
+        "type": "dimension",
+        "comment": "Espaciado compacto común en inputs y chips"
+      },
+      "md": {
+        "value": "16px",
+        "type": "dimension",
+        "comment": "Espaciado base del sistema (grid de 8pt)"
+      },
+      "lg": {
+        "value": "24px",
+        "type": "dimension",
+        "comment": "Separación entre secciones internas de tarjeta"
+      },
+      "xl": {
+        "value": "32px",
+        "type": "dimension",
+        "comment": "Márgenes laterales de contenedor principal"
+      },
+      "2xl": {
+        "value": "48px",
+        "type": "dimension",
+        "comment": "Espaciado amplio entre módulos mayores"
+      }
+    }
+  },
+  "shape": {
+    "radius": {
+      "none": {
+        "value": "0px",
+        "type": "dimension",
+        "comment": "Bordes rectos"
+      },
+      "xs": {
+        "value": "4px",
+        "type": "dimension",
+        "comment": "Radio sutil para tags o badges"
+      },
+      "sm": {
+        "value": "8px",
+        "type": "dimension",
+        "comment": "Radio estándar para inputs y botones pequeños"
+      },
+      "md": {
+        "value": "12px",
+        "type": "dimension",
+        "comment": "Radio estándar para tarjetas y botones principales"
+      },
+      "lg": {
+        "value": "16px",
+        "type": "dimension",
+        "comment": "Radio para modales y bottom sheets"
+      },
+      "full": {
+        "value": "9999px",
+        "type": "dimension",
+        "comment": "Radio completamente redondeado para avatares y píldoras"
+      }
+    },
+    "border-width": {
+      "none": {
+        "value": "0px",
+        "type": "dimension",
+        "comment": "Sin borde"
+      },
+      "hairline": {
+        "value": "1px",
+        "type": "dimension",
+        "comment": "Borde fino para divisores e inputs"
+      },
+      "focus": {
+        "value": "2px",
+        "type": "dimension",
+        "comment": "Borde de enfoque o selección activa"
+      }
+    }
+  }
+}

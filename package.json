@@ -1,0 +1,18 @@
+{
+  "name": "monymonty-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo de Design Tokens y Sistema de Diseño para MonyMonty",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  },
+  "packageManager": "npm@11.2.0"
+}

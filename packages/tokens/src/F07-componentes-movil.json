@@ -1,0 +1,27 @@
+{
+  "component": {
+    "mobile": {
+      "appbar": {
+        "height": {
+          "value": "56px",
+          "type": "dimension",
+          "comment": "Altura estándar de AppBar en Flutter"
+        }
+      },
+      "bottom-nav": {
+        "height": {
+          "value": "64px",
+          "type": "dimension",
+          "comment": "Altura de la barra de navegación inferior móvil"
+        }
+      },
+      "touch-target": {
+        "min": {
+          "value": "48px",
+          "type": "dimension",
+          "comment": "Área mínima accesible de toque en móviles"
+        }
+      }
+    }
+  }
+}

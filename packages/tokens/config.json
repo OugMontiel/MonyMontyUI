@@ -1,0 +1,30 @@
+{
+  "source": [
+    "src/**/*.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/web/",
+      "files": [
+        {
+          "destination": "MonyMontyStyle.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "flutter": {
+      "transformGroup": "flutter",
+      "buildPath": "build/mobile/",
+      "files": [
+        {
+          "destination": "MonyMontyStyle.dart",
+          "format": "flutter/class.dart",
+          "options": {
+            "className": "MonyMontyStyle"
+          }
+        }
+      ]
+    }
+  }
+}

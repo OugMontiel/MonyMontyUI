@@ -1,0 +1,32 @@
+{
+  "component": {
+    "web": {
+      "navbar": {
+        "height": {
+          "value": "72px",
+          "type": "dimension",
+          "comment": "Altura de navegación superior web desktop"
+        }
+      },
+      "sidebar": {
+        "width": {
+          "value": "260px",
+          "type": "dimension",
+          "comment": "Ancho estándar del panel lateral web"
+        },
+        "collapsed-width": {
+          "value": "80px",
+          "type": "dimension",
+          "comment": "Ancho del panel lateral web colapsado"
+        }
+      },
+      "container": {
+        "max-width": {
+          "value": "1280px",
+          "type": "dimension",
+          "comment": "Ancho máximo del contenedor principal en desktop"
+        }
+      }
+    }
+  }
+}

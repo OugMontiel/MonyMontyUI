@@ -1,0 +1,26 @@
+{
+  "icon": {
+    "size": {
+      "sm": {
+        "value": "16px",
+        "type": "dimension",
+        "comment": "Icono pequeño embebido en botones y tags"
+      },
+      "md": {
+        "value": "24px",
+        "type": "dimension",
+        "comment": "Icono estándar de navegación y acciones"
+      },
+      "lg": {
+        "value": "32px",
+        "type": "dimension",
+        "comment": "Icono destacado en tarjetas informativas"
+      },
+      "xl": {
+        "value": "48px",
+        "type": "dimension",
+        "comment": "Iconos ilustrativos de cabecera"
+      }
+    }
+  }
+}

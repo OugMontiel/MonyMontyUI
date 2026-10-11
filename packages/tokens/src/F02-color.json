@@ -1,0 +1,77 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "value": "#1E3A8A",
+        "type": "color",
+        "comment": "Color primario corporativo de MonyMonty"
+      },
+      "secondary": {
+        "value": "#10B981",
+        "type": "color",
+        "comment": "Color secundario de soporte"
+      },
+      "accent": {
+        "value": "#F59E0B",
+        "type": "color",
+        "comment": "Color de acento o llamada a la acción"
+      }
+    },
+    "neutral": {
+      "background": {
+        "value": "#F8FAFC",
+        "type": "color",
+        "comment": "Fondo de superficie principal de la aplicación"
+      },
+      "surface": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "comment": "Superficie de tarjetas, modales y hojas inferiores"
+      },
+      "text": {
+        "primary": {
+          "value": "#0F172A",
+          "type": "color",
+          "comment": "Texto principal de alto contraste"
+        },
+        "secondary": {
+          "value": "#64748B",
+          "type": "color",
+          "comment": "Texto secundario o descriptivo"
+        },
+        "disabled": {
+          "value": "#94A3B8",
+          "type": "color",
+          "comment": "Texto en estado deshabilitado"
+        }
+      },
+      "border": {
+        "value": "#E2E8F0",
+        "type": "color",
+        "comment": "Borde estándar para divisores e inputs"
+      }
+    },
+    "feedback": {
+      "success": {
+        "value": "#22C55E",
+        "type": "color",
+        "comment": "Indicador de transacciones o acciones exitosas"
+      },
+      "warning": {
+        "value": "#EAB308",
+        "type": "color",
+        "comment": "Indicador de advertencia o confirmación pendiente"
+      },
+      "error": {
+        "value": "#EF4444",
+        "type": "color",
+        "comment": "Indicador de error o saldo insuficiente"
+      },
+      "info": {
+        "value": "#3B82F6",
+        "type": "color",
+        "comment": "Indicador informativo neutral"
+      }
+    }
+  }
+}

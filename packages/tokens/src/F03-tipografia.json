@@ -1,0 +1,89 @@
+{
+  "font": {
+    "family": {
+      "primary": {
+        "value": "Inter",
+        "type": "fontFamilies",
+        "comment": "Familia tipográfica principal para interfaces de usuario"
+      },
+      "mono": {
+        "value": "JetBrains Mono",
+        "type": "fontFamilies",
+        "comment": "Familia monoespaciada para montos, números de cuenta y códigos"
+      }
+    },
+    "weight": {
+      "regular": {
+        "value": "400",
+        "type": "fontWeights",
+        "comment": "Peso regular para párrafos y lectura extendida"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights",
+        "comment": "Peso medio para labels y botones"
+      },
+      "semibold": {
+        "value": "600",
+        "type": "fontWeights",
+        "comment": "Peso seminegrita para subtítulos y énfasis"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeights",
+        "comment": "Peso negrita para encabezados de sección"
+      }
+    }
+  },
+  "typography": {
+    "size": {
+      "caption": {
+        "value": "12px",
+        "type": "dimension",
+        "comment": "Tamaño pequeño para notas al pie y timestamps"
+      },
+      "body": {
+        "value": "14px",
+        "type": "dimension",
+        "comment": "Tamaño base para cuerpos de texto y entradas de formulario"
+      },
+      "body-large": {
+        "value": "16px",
+        "type": "dimension",
+        "comment": "Tamaño de cuerpo destacado o listas principales"
+      },
+      "title": {
+        "value": "20px",
+        "type": "dimension",
+        "comment": "Títulos de tarjetas y modales"
+      },
+      "headline": {
+        "value": "24px",
+        "type": "dimension",
+        "comment": "Encabezados principales de pantalla"
+      },
+      "display": {
+        "value": "32px",
+        "type": "dimension",
+        "comment": "Monto principal de balance y pantallas de bienvenida"
+      }
+    },
+    "line-height": {
+      "tight": {
+        "value": "1.2",
+        "type": "dimension",
+        "comment": "Interlineado compacto para títulos y display"
+      },
+      "normal": {
+        "value": "1.5",
+        "type": "dimension",
+        "comment": "Interlineado estándar para lectura cómoda"
+      },
+      "relaxed": {
+        "value": "1.75",
+        "type": "dimension",
+        "comment": "Interlineado relajado para contenido editorial"
+      }
+    }
+  }
+}

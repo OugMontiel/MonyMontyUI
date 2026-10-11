@@ -1,0 +1,26 @@
+{
+  "state": {
+    "opacity": {
+      "hover": {
+        "value": "0.08",
+        "type": "dimension",
+        "comment": "Opacidad de capa de interacción hover"
+      },
+      "focus": {
+        "value": "0.12",
+        "type": "dimension",
+        "comment": "Opacidad de capa de interacción focus"
+      },
+      "pressed": {
+        "value": "0.16",
+        "type": "dimension",
+        "comment": "Opacidad de capa de interacción pressed/active"
+      },
+      "disabled": {
+        "value": "0.38",
+        "type": "dimension",
+        "comment": "Opacidad general de componentes deshabilitados"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "motion": {
+    "duration": {
+      "instant": {
+        "value": "100ms",
+        "type": "time",
+        "comment": "Microinteracciones inmediatas como hover o ripple"
+      },
+      "fast": {
+        "value": "200ms",
+        "type": "time",
+        "comment": "Transición rápida de expansión o contracción"
+      },
+      "normal": {
+        "value": "300ms",
+        "type": "time",
+        "comment": "Duración estándar para modales y navegación de páginas"
+      },
+      "slow": {
+        "value": "500ms",
+        "type": "time",
+        "comment": "Animaciones complejas o transiciones compartidas"
+      }
+    }
+  }
+}
