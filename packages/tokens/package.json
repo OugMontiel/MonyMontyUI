@@ -4,6 +4,10 @@
   "private": true,
   "description": "Design Tokens de MonyMonty compilados para Web (CSS) y Móvil (Flutter / Dart)",
   "main": "build/web/MonyMontyStyle.css",
+  "style": "build/web/MonyMontyStyle.css",
+  "files": [
+    "build/web"
+  ],
   "scripts": {
     "build": "style-dictionary build",
     "clean": "style-dictionary clean"
