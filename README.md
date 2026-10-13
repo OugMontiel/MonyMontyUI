@@ -27,7 +27,7 @@ monymonty-ui/
 │       │   ├── F10-estados.json
 │       │   └── F11-visualizacion-datos.json
 │       ├── config.json                     # Configuración de compilación Style Dictionary
-│       └── package.json                    # @monymonty/tokens
+│       └── package.json                    # @ougmontiel/monymonty-tokens
 ├── package.json                            # Orquestador raíz (NPM Workspaces)
 ├── turbo.json                              # Pipeline y caché con Turborepo
 └── README.md                               # Guía de inicio y comandos
@@ -60,7 +60,7 @@ Compila todos los paquetes usando el pipeline optimizado de Turborepo:
 npm run build
 ```
 
-Turborepo ejecutará la tarea `build` del paquete `@monymonty/tokens`, generando los artefactos en:
+Turborepo ejecutará la tarea `build` del paquete `@ougmontiel/monymonty-tokens`, generando los artefactos en:
 - **Web**: `packages/tokens/build/web/MonyMontyStyle.css`
 - **Flutter**: `packages/tokens/build/mobile/MonyMontyStyle.dart`
 
@@ -70,7 +70,7 @@ Turborepo ejecutará la tarea `build` del paquete `@monymonty/tokens`, generando
 
 ### Compilar solo el paquete de Tokens (sin Turborepo)
 ```bash
-npm run build --workspace=@monymonty/tokens
+npm run build --workspace=@ougmontiel/monymonty-tokens
 ```
 
 ### Modo Limpieza
