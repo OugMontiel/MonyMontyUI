@@ -1,6 +1,6 @@
 {
   "name": "@monymonty/tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Design Tokens de MonyMonty compilados para Web (CSS) y Móvil (Flutter / Dart)",
   "repository": {
