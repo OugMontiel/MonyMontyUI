@@ -9,6 +9,6 @@
     "clean": "style-dictionary clean"
   },
   "devDependencies": {
-    "style-dictionary": "^5.6.1"
+    "style-dictionary": "5.6.1"
   }
 }
