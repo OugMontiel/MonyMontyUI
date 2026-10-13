@@ -25,16 +25,16 @@ jobs:
         with:
           node-version: '24'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@monymonty'
+          scope: '@OugMontiel'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build design tokens
-        run: npm run build --workspace=@monymonty/tokens
+        run: npm run build --workspace=@OugMontiel/MonyMontyTokens
 
       - name: Publish package to GitHub Packages
-        run: npm publish --workspace=@monymonty/tokens
+        run: npm publish --workspace=@OugMontiel/MonyMontyTokens
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
