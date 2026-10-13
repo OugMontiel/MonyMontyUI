@@ -1,0 +1,84 @@
+{
+  "chart": {
+    "duration": {
+      "draw": {
+        "value": "1100ms",
+        "type": "time",
+        "comment": "Trazado de gráficos y conteo animado de montos (dur-chart)"
+      }
+    },
+    "easing": {
+      "draw": {
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "type": "content",
+        "comment": "Curva de entrada y trazado de series en gráficos (ease-out)"
+      }
+    },
+    "axis": {
+      "label": {
+        "light": {
+          "value": "#67625b",
+          "type": "color",
+          "comment": "Texto de etiquetas y valores en ejes de gráficos (ink-muted claro)"
+        },
+        "dark": {
+          "value": "#b3ada5",
+          "type": "color",
+          "comment": "Texto de etiquetas y valores en ejes de gráficos (ink-muted oscuro)"
+        }
+      },
+      "grid": {
+        "value": "#8a847c",
+        "type": "color",
+        "comment": "Líneas de cuadrícula y marcas de eje (ink-subtle >=3:1)"
+      }
+    },
+    "series": {
+      "food": {
+        "value": "#e4572e",
+        "type": "color",
+        "comment": "Serie: Comida y restaurantes (cat-orange)"
+      },
+      "groceries": {
+        "value": "#0f8f8a",
+        "type": "color",
+        "comment": "Serie: Mercado y supermercado (cat-teal)"
+      },
+      "housing": {
+        "value": "#5458d6",
+        "type": "color",
+        "comment": "Serie: Hogar y arriendo (cat-indigo)"
+      },
+      "education": {
+        "value": "#8b4fb3",
+        "type": "color",
+        "comment": "Serie: Educación (cat-plum)"
+      },
+      "transport": {
+        "value": "#c27c00",
+        "type": "color",
+        "comment": "Serie: Transporte (cat-amber)"
+      },
+      "health": {
+        "value": "#c93f72",
+        "type": "color",
+        "comment": "Serie: Salud y cuidado (cat-pink)"
+      },
+      "tech": {
+        "value": "#2878c7",
+        "type": "color",
+        "comment": "Serie: Suscripciones y tecnología (cat-sky)"
+      },
+      "income": {
+        "value": "#3d8a3a",
+        "type": "color",
+        "comment": "Serie: Salario y negocio (cat-green)"
+      },
+      "other": {
+        "value": "#5f6b7a",
+        "type": "color",
+        "comment": "Serie: Otros / sin categoría (cat-slate)"
+      }
+    }
+  }
+}

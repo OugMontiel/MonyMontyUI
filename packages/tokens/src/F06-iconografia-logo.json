@@ -4,22 +4,41 @@
       "sm": {
         "value": "16px",
         "type": "dimension",
-        "comment": "Icono pequeño embebido en botones y tags"
+        "comment": "Separación e iconos dentro de chips y badges."
       },
       "md": {
-        "value": "24px",
+        "value": "20px",
         "type": "dimension",
-        "comment": "Icono estándar de navegación y acciones"
+        "comment": "Iconos en inputs, botones pequeños y filas."
       },
       "lg": {
-        "value": "32px",
+        "value": "24px",
         "type": "dimension",
-        "comment": "Icono destacado en tarjetas informativas"
+        "comment": "Iconos estándar de navegación, tabs y FAB."
       },
       "xl": {
+        "value": "32px",
+        "type": "dimension",
+        "comment": "Iconos destacados de categorías con fondo de color."
+      },
+      "display": {
         "value": "48px",
         "type": "dimension",
-        "comment": "Iconos ilustrativos de cabecera"
+        "comment": "Iconos grandes para empty states e ilustraciones."
+      }
+    }
+  },
+  "asset": {
+    "logo": {
+      "primary": {
+        "value": "assets/img/MonyMontySinFondo3.png",
+        "type": "asset",
+        "comment": "Logo principal de MonyMonty."
+      },
+      "secondary": {
+        "value": "assets/img/MonyMontySinFondo2.png",
+        "type": "asset",
+        "comment": "Variante del logo de MonyMonty."
       }
     }
   }

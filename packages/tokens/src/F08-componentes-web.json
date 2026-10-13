@@ -1,30 +1,77 @@
 {
   "component": {
     "web": {
-      "navbar": {
-        "height": {
-          "value": "72px",
-          "type": "dimension",
-          "comment": "Altura de navegación superior web desktop"
-        }
-      },
       "sidebar": {
         "width": {
           "value": "260px",
           "type": "dimension",
-          "comment": "Ancho estándar del panel lateral web"
+          "comment": "Ancho del sidebar en escritorio"
         },
         "collapsed-width": {
           "value": "80px",
           "type": "dimension",
-          "comment": "Ancho del panel lateral web colapsado"
+          "comment": "Ancho del sidebar colapsado"
+        },
+        "item-padding": {
+          "value": "12px",
+          "type": "dimension",
+          "comment": "Padding de ítems del menú (space-3)"
+        },
+        "item-radius": {
+          "value": "12px",
+          "type": "dimension",
+          "comment": "Radio de esquina de los ítems del menú (radius-md)"
         }
       },
-      "container": {
+      "table": {
+        "row-padding": {
+          "value": "16px",
+          "type": "dimension",
+          "comment": "Padding de filas de tablas (space-4)"
+        },
+        "radius": {
+          "value": "18px",
+          "type": "dimension",
+          "comment": "Radio de tarjetas y tablas (radius-lg)"
+        }
+      },
+      "modal": {
+        "padding": {
+          "value": "24px",
+          "type": "dimension",
+          "comment": "Padding de modales (space-6)"
+        },
+        "radius": {
+          "value": "26px",
+          "type": "dimension",
+          "comment": "Radio de modales y drawers (radius-xl)"
+        },
+        "max-width": {
+          "value": "600px",
+          "type": "dimension",
+          "comment": "Ancho máximo estándar de modal de transacción"
+        }
+      },
+      "layout": {
+        "content-padding": {
+          "value": "32px",
+          "type": "dimension",
+          "comment": "Padding del contenido principal (space-8)"
+        },
+        "section-gap": {
+          "value": "48px",
+          "type": "dimension",
+          "comment": "Separación entre secciones en landing y onboarding (space-12)"
+        },
+        "grid-gap": {
+          "value": "24px",
+          "type": "dimension",
+          "comment": "Gap de grids en escritorio (space-6)"
+        },
         "max-width": {
           "value": "1280px",
           "type": "dimension",
-          "comment": "Ancho máximo del contenedor principal en desktop"
+          "comment": "Ancho máximo del contenedor principal"
         }
       }
     }

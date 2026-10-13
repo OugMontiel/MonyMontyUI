@@ -1,0 +1,39 @@
+name: Publish Tokens to GitHub Packages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/tokens/**'
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@monymonty'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build design tokens
+        run: npm run build --workspace=@monymonty/tokens
+
+      - name: Publish package to GitHub Packages
+        run: npm publish --workspace=@monymonty/tokens
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

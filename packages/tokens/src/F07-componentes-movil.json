@@ -1,18 +1,16 @@
 {
   "component": {
     "mobile": {
-      "appbar": {
-        "height": {
+      "fab": {
+        "radius": {
+          "value": "999px",
+          "type": "dimension",
+          "comment": "Radio píldora para FAB según tocken.json"
+        },
+        "size": {
           "value": "56px",
           "type": "dimension",
-          "comment": "Altura estándar de AppBar en Flutter"
-        }
-      },
-      "bottom-nav": {
-        "height": {
-          "value": "64px",
-          "type": "dimension",
-          "comment": "Altura de la barra de navegación inferior móvil"
+          "comment": "Dimensión estándar del botón de acción flotante"
         }
       },
       "touch-target": {
@@ -20,6 +18,64 @@
           "value": "48px",
           "type": "dimension",
           "comment": "Área mínima accesible de toque en móviles"
+        }
+      },
+      "segmented": {
+        "track-radius": {
+          "value": "999px",
+          "type": "dimension",
+          "comment": "Radio píldora de la pista del segmented control"
+        },
+        "thumb-radius": {
+          "value": "999px",
+          "type": "dimension",
+          "comment": "Radio del selector activo del segmented control"
+        },
+        "padding": {
+          "value": "4px",
+          "type": "dimension",
+          "comment": "Padding interno del segmented control (space-1)"
+        }
+      },
+      "card": {
+        "grid-gap": {
+          "value": "16px",
+          "type": "dimension",
+          "comment": "Gap de grids de tarjetas en móvil (space-4)"
+        },
+        "padding": {
+          "value": "20px",
+          "type": "dimension",
+          "comment": "Padding de tarjetas (space-5)"
+        },
+        "radius": {
+          "value": "18px",
+          "type": "dimension",
+          "comment": "Radio de esquina de tarjetas (radius-lg)"
+        }
+      },
+      "drawer": {
+        "radius": {
+          "value": "26px",
+          "type": "dimension",
+          "comment": "Radio de bordes superiores para bottom sheets y modales (radius-xl)"
+        },
+        "padding": {
+          "value": "24px",
+          "type": "dimension",
+          "comment": "Padding interno de drawers y modales móviles (space-6)"
+        }
+      },
+      "input": {
+        "padding": {
+          "value": "12px",
+          "type": "dimension",
+          "comment": "Padding de inputs (space-3)"
+        },
+        "radius": {
+          "value": "12px",
+          "type": "dimension",
+          "comment": "Radio de bordes de inputs (radius-md)"
         }
       }
     }

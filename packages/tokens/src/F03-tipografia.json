@@ -1,88 +1,185 @@
 {
   "font": {
     "family": {
-      "primary": {
-        "value": "Inter",
-        "type": "fontFamilies",
-        "comment": "Familia tipográfica principal para interfaces de usuario"
-      },
-      "mono": {
-        "value": "JetBrains Mono",
-        "type": "fontFamilies",
-        "comment": "Familia monoespaciada para montos, números de cuenta y códigos"
+      "sans": {
+        "value": "Plus Jakarta Sans",
+        "type": "content",
+        "comment": "Tipografía principal de MonyMonty para Web y Móvil"
       }
     },
     "weight": {
       "regular": {
         "value": "400",
         "type": "fontWeights",
-        "comment": "Peso regular para párrafos y lectura extendida"
+        "comment": "Peso regular para lectura estándar"
       },
       "medium": {
         "value": "500",
         "type": "fontWeights",
-        "comment": "Peso medio para labels y botones"
-      },
-      "semibold": {
-        "value": "600",
-        "type": "fontWeights",
-        "comment": "Peso seminegrita para subtítulos y énfasis"
+        "comment": "Peso medium para body, inputs y filas"
       },
       "bold": {
         "value": "700",
         "type": "fontWeights",
-        "comment": "Peso negrita para encabezados de sección"
+        "comment": "Peso bold para títulos h2/h3, montos y labels"
+      },
+      "extrabold": {
+        "value": "800",
+        "type": "fontWeights",
+        "comment": "Peso extrabold para display, h1, amount-xl, amount-lg y overline"
       }
     }
   },
   "typography": {
-    "size": {
-      "caption": {
-        "value": "12px",
-        "type": "dimension",
-        "comment": "Tamaño pequeño para notas al pie y timestamps"
-      },
-      "body": {
-        "value": "14px",
-        "type": "dimension",
-        "comment": "Tamaño base para cuerpos de texto y entradas de formulario"
-      },
-      "body-large": {
-        "value": "16px",
-        "type": "dimension",
-        "comment": "Tamaño de cuerpo destacado o listas principales"
-      },
-      "title": {
-        "value": "20px",
-        "type": "dimension",
-        "comment": "Títulos de tarjetas y modales"
-      },
-      "headline": {
-        "value": "24px",
-        "type": "dimension",
-        "comment": "Encabezados principales de pantalla"
-      },
+    "title": {
       "display": {
-        "value": "32px",
-        "type": "dimension",
-        "comment": "Monto principal de balance y pantallas de bienvenida"
+        "font-size": {
+          "value": "44px",
+          "type": "dimension",
+          "comment": "Landing y pantallas de bienvenida"
+        },
+        "line-height": {
+          "value": "48px",
+          "type": "dimension"
+        },
+        "letter-spacing": {
+          "value": "-0.02em",
+          "type": "content"
+        }
+      },
+      "h1": {
+        "font-size": {
+          "value": "28px",
+          "type": "dimension",
+          "comment": "Título de página en la barra superior"
+        },
+        "line-height": {
+          "value": "34px",
+          "type": "dimension"
+        },
+        "letter-spacing": {
+          "value": "-0.015em",
+          "type": "content"
+        }
+      },
+      "h2": {
+        "font-size": {
+          "value": "20px",
+          "type": "dimension",
+          "comment": "Título de modal y de sección"
+        },
+        "line-height": {
+          "value": "28px",
+          "type": "dimension"
+        },
+        "letter-spacing": {
+          "value": "-0.01em",
+          "type": "content"
+        }
+      },
+      "h3": {
+        "font-size": {
+          "value": "16px",
+          "type": "dimension",
+          "comment": "Título de tarjeta"
+        },
+        "line-height": {
+          "value": "24px",
+          "type": "dimension"
+        }
       }
     },
-    "line-height": {
-      "tight": {
-        "value": "1.2",
-        "type": "dimension",
-        "comment": "Interlineado compacto para títulos y display"
+    "amount": {
+      "xl": {
+        "font-size": {
+          "value": "36px",
+          "type": "dimension",
+          "comment": "Saldo principal. Siempre con tabular-nums"
+        },
+        "line-height": {
+          "value": "40px",
+          "type": "dimension"
+        },
+        "letter-spacing": {
+          "value": "-0.02em",
+          "type": "content"
+        }
       },
-      "normal": {
-        "value": "1.5",
-        "type": "dimension",
-        "comment": "Interlineado estándar para lectura cómoda"
+      "lg": {
+        "font-size": {
+          "value": "26px",
+          "type": "dimension",
+          "comment": "Valores de tarjetas KPI"
+        },
+        "line-height": {
+          "value": "32px",
+          "type": "dimension"
+        },
+        "letter-spacing": {
+          "value": "-0.015em",
+          "type": "content"
+        }
       },
-      "relaxed": {
-        "value": "1.75",
-        "type": "dimension",
-        "comment": "Interlineado relajado para contenido editorial"
+      "md": {
+        "font-size": {
+          "value": "15px",
+          "type": "dimension",
+          "comment": "Montos en filas y tablas"
+        },
+        "line-height": {
+          "value": "22px",
+          "type": "dimension"
+        }
+      }
+    },
+    "text": {
+      "body": {
+        "font-size": {
+          "value": "15px",
+          "type": "dimension",
+          "comment": "Texto general, inputs, filas"
+        },
+        "line-height": {
+          "value": "22px",
+          "type": "dimension"
+        }
+      },
+      "body-sm": {
+        "font-size": {
+          "value": "13px",
+          "type": "dimension",
+          "comment": "Descripciones, ayudas de campo, metadatos"
+        },
+        "line-height": {
+          "value": "20px",
+          "type": "dimension"
+        }
+      },
+      "label": {
+        "font-size": {
+          "value": "13px",
+          "type": "dimension",
+          "comment": "Etiquetas de campo y botones pequeños"
+        },
+        "line-height": {
+          "value": "18px",
+          "type": "dimension"
+        }
+      },
+      "overline": {
+        "font-size": {
+          "value": "11px",
+          "type": "dimension",
+          "comment": "Rótulos en mayúscula sobre KPI y grupos del menú"
+        },
+        "line-height": {
+          "value": "16px",
+          "type": "dimension"
+        },
+        "letter-spacing": {
+          "value": "0.08em",
+          "type": "content"
+        }
       }
     }
   }
