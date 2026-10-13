@@ -1,8 +1,15 @@
 {
   "name": "@monymonty/tokens",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Design Tokens de MonyMonty compilados para Web (CSS) y Móvil (Flutter / Dart)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OugMontiel/MonyMontyUI.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "build/web/MonyMontyStyle.css",
   "style": "build/web/MonyMontyStyle.css",
   "files": [
